@@ -600,6 +600,19 @@ h4 {
   line-height: 1.5;
 }
 
+.address a,
+.info-card .detail a,
+.legal-card a {
+  color: inherit;
+  display: inline;
+}
+
+.address a:hover,
+.info-card .detail a:hover,
+.legal-card a:hover {
+  color: var(--primary);
+}
+
 .footer-col h4 {
   font-size: 1rem;
   margin-bottom: 1rem;
